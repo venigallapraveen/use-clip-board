@@ -1,0 +1,51 @@
+{
+  "name": "praveen-hooks--use-clipboard",
+  "version": "1.0.0",
+  "description": "custom hook to copy text contents to clipboard",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venigallapraveen/use-clip-board.git"
+  },
+  "keywords": [
+    "react",
+    "clipboard",
+    "copy",
+    "hooks"
+  ],
+  "author": "praveen venigalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venigallapraveen/use-clip-board/issues"
+  },
+  "homepage": "https://github.com/venigallapraveen/use-clip-board#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "copy-to-clipboard": "^3.3.1",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.1",
+    "react-dom": ">= 17.0.1"
+  }
+}
